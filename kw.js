@@ -6,7 +6,7 @@
 ***************************
 
 [Script]
-http-response ^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+http-response ^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/surge-js/main/kw.js
 hostname = *.kuwo.cn
 ********************************
 */
