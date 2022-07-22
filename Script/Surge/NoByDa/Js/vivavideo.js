@@ -37,9 +37,3 @@ obj = {
 };
 
 $done({body: JSON.stringify(obj)});
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Sec
