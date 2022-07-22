@@ -1,7 +1,7 @@
 /*
 脚本整理：Peng-Lx
 [rewrite_local]
-^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body
+^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/CaiYunXiaoYi.js
 hostname = api.interpreter.caiyunai.com
 */
 
