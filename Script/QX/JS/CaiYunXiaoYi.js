@@ -1,10 +1,9 @@
-
-
-
-
-
-
-
+/*
+脚本整理：Peng-Lx
+[rewrite_local]
+^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body
+hostname = api.interpreter.caiyunai.com
+*/
 
 var obj = JSON.parse($response.body);
  obj={
