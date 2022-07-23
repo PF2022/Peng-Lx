@@ -3,12 +3,12 @@
 QX
 [rewrite_local]
 ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/CaiYunXiaoYi.js
+**************************
 hostname = api.interpreter.caiyunai.com
 **************************
 surge&loon
 [Script]
 http-response ^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/CaiYunXiaoYi.js
-hostname = api.interpreter.caiyunai.com
 */
 
 var obj = JSON.parse($response.body);
