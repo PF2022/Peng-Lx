@@ -4,12 +4,12 @@
  *QX
   [rewrite_local]
   ^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get) url script-response-body https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/dxmx.js
+  *****************************************
   hostname = nmeditation.snailsleep.net
-  ***************************************************
+  *****************************************
   *surge&loon
   [Script]
-   http-response ^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/dxmx.js
-   hostname = nmeditation.snailsleep.net
+  http-response ^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/QX/JS/dxmx.js
 */
 
 
