@@ -6,7 +6,7 @@
  *[Script]
  *http-response ^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/kekeyingyu.js
  *hostname = mob2015.kekenet.com
- */
+*/
  
  re('"is_vip":\\d@"end_time":\\d+','"is_vip":1@"end_time":1741575902')
 
