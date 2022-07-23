@@ -1,12 +1,18 @@
 /*
- *脚本功能：蜗牛睡眠VIP 
+ *脚本功能：蜗牛睡眠VIP
  *脚本整理：Peng-Lx
+ **********************
+ *QX
+ [rewrite_local]
+ ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get url script-response-body https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/wnsm.js
+ 
  **********************
  *hostname = snailsleep.net
  **********************
+ 
  *Surge&loon
- *[Script]
- *http-response ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/wnsm.js
+ [Script]
+ http-response *http-response ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/wnsm.js
 */
  
  
