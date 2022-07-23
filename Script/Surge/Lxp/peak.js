@@ -12,7 +12,7 @@
  
  *Surge&loon
  [Script]
- http-response ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/peak.js
+ http-response ^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Peng-Lx/lxpscript/master/JS/peak.js
 */
  
  
