@@ -6,7 +6,7 @@
  **********************
  *Surge&loon
  *[Script]
- *  http-response ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get requires-body=1,max-size=0,script-path=
+ *  http-response ^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PF2022/Peng-Lx/master/Script/Surge/Lxp/wnsm.js
 */
  
  
